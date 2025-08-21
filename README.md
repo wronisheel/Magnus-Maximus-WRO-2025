@@ -46,6 +46,8 @@ This integration of sensors, vision, and motor control results in a robot that i
 
 
 
+THE DETAILS
+
 
 EV3 Chassis
 
