@@ -45,6 +45,8 @@ This integration of sensors, vision, and motor control results in a robot that i
  Pi camera 3
 
 
+
+
 EV3 Chassis
 
 The EV3 chassis is a modular and sturdy framework designed primarily for use in robotics projects. It is part of the LEGO Mindstorms series, which allows for versatile construction and easy reconfiguration. The chassis can be fitted with multiple components, such as motors and sensors, to suit specific tasks. Its lightweight yet robust design makes it an ideal base for mobile robots, providing both stability and flexibility. The ability to easily attach or detach parts allows for quick modifications, which is particularly useful during testing and development phases.
