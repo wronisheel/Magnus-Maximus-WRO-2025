@@ -31,3 +31,17 @@ All components—sensors, PiCamera3, PCB, battery, and motors—are securely mou
 By combining the laser-based precision of the VL53L1X sensors for the open and wall-bounded challenge rounds with the visual intelligence of the PiCamera3 for the obstacle round, the robot achieves a strong balance of accuracy and adaptability. It not only detects objects directly in its path but also maintains spatial awareness in wall-enclosed environments and intelligently navigates more complex obstacle courses.
 
 This integration of sensors, vision, and motor control results in a robot that is both robust and versatile. It can reliably detect and avoid objects, maintain safe navigation between walls, and adapt dynamically to visually complex challenges. Altogether, the system demonstrates smooth, autonomous operation across varied environments, making it highly effective in meeting the demands of all competition rounds.
+
+ ELECTRICAL COMPONENTS
+
+ Raspberry Pi 4b
+
+ Vl53l1x(Tof)Sensor
+
+ EV3 Chassis
+
+ 3.7V 2200 mah battery
+
+ Pi camera 3
+
+ 
