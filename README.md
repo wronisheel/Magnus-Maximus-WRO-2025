@@ -12,7 +12,7 @@ ABOUT THE TEAM
 
 ENGINEERING PROCESSES
 
-Processes and Electricals
+PROCESSES AND ELECTRICALS
 
 In this project, the Raspberry Pi 4 functions as the central processor, responsible for handling both sensing inputs and motor control while also carrying out advanced image-processing tasks. Unlike systems that divide responsibilities between multiple controllers, here the Raspberry Pi alone manages both low-level and high-level operations, making the architecture compact and efficient.
 
