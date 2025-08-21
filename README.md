@@ -34,15 +34,15 @@ This integration of sensors, vision, and motor control results in a robot that i
 
  ELECTRICAL COMPONENTS
 
- Raspberry Pi 4b
+Raspberry Pi 4b
 
- Vl53l1x(Tof)Sensor
+Vl53l1x(Tof)Sensor
 
- EV3 Chassis
+EV3 Chassis
 
- 3.7V 2200 mah battery
+3.7V 2200 mah battery
 
- Pi camera 3
+Pi camera 3
 
 
 
