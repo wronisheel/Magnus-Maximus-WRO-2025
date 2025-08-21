@@ -1,4 +1,4 @@
-# === FE_functions.py ===
+# === FE_functions.py === 
 # Contains reusable motor, servo, and image processing functions for Open Challenge
 
 import RPi.GPIO as GPIO
