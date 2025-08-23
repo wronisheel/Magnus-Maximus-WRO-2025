@@ -10,8 +10,8 @@ We are the members of team Magnus Maximus. We are a part of the Robotronics Club
 
 [Nisheel Patel - Grade 10] Nisheel is a passionate coder who writes clean and efficient code. He also manages GitHub, ensuring smooth project collaboration. By handling version control, he keeps work organized and up to date. Alongside this, he actively supports the team in debugging and problem-solving. His coding and management skills make every project more effective.
 
-## ENGINEERING PROCESSES
-## =============
+ENGINEERING PROCESSES
+====
 ## PROCESSES AND ELECTRICALS
 
 In this project, the Raspberry Pi 4 functions as the central processor, responsible for handling both sensing inputs and motor control while also carrying out advanced image-processing tasks. Unlike systems that divide responsibilities between multiple controllers, here the Raspberry Pi alone manages both low-level and high-level operations, making the architecture compact and efficient.
