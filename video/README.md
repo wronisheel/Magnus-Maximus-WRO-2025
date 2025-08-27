@@ -1,7 +1,7 @@
 Video
 ====
 
-## OUR YOUTUBE CHANNEL- UCB1XvBPPminHvfOBor5b87Q
+## OUR YOUTUBE CHANNEL- @WROMagnusMaximus
 
 ## Video 1- https://www.youtube.com/shorts/F_uALV5zq7c
 
