@@ -30,6 +30,8 @@ BNO 55 Gyro
 
 7.4V Battery
 
+TCA 9548A
+
 THE DETAILS
 
 ## EV3 Chassis
@@ -66,6 +68,9 @@ The BNO055 is a smart 9-axis absolute orientation sensor from Bosch that integra
 
 ## 7.4V Battery
 Power is supplied by a 7.4V lithium-ion battery pack, which provides higher voltage and sufficient current to reliably drive the Raspberry Pi, motors, and sensors. Since the Raspberry Pi and some peripherals require regulated 5V or 3.3V inputs, a step-down voltage regulator integrated into the custom PCB ensures stable power delivery. The higher input voltage from the 7.4V battery offers better headroom for the regulators, resulting in more consistent performance under load, especially during motor acceleration or obstacle maneuvers. With a capacity of 2200mAh, the battery supports extended operation during competition rounds without frequent recharging, making it well-suited for real-time robotics challenges.
+
+## TCA 9548A
+The TCA9548A is an I²C multiplexer and switch developed by Texas Instruments, designed to solve the problem of multiple devices sharing the same I²C address on a single bus. It works by allowing the master (such as a Raspberry Pi or Arduino) to communicate with up to eight downstream I²C channels, each of which can have devices with the same address without causing conflicts. The master selects which channel to communicate with by writing to the TCA9548A’s control register. This makes it especially useful in robotics and sensor-heavy projects, such as when multiple VL53L1X ToF sensors are used, since they share a default fixed address. The chip operates with a supply voltage range of 1.65V to 5.5V, supports standard (100 kHz), fast (400 kHz), and high-speed (up to 1 MHz) I²C modes, and ensures reliable, low-latency communication. By providing isolated channels, the TCA9548A enables flexible sensor integration, scalability, and efficient bus management in complex embedded systems.
 
 ENGINEERING PROCESSES
 ====
