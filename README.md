@@ -28,6 +28,8 @@ PCA 9548 Multiplexer
 
 BNO 55 Gyro
 
+7.4V Battery
+
 THE DETAILS
 
 ## EV3 Chassis
@@ -46,7 +48,8 @@ The Raspberry Pi 4 is a powerful and versatile single-board computer (SBC) that 
 
 The Raspberry Pi Camera V3 is a high-resolution camera module that provides the robot with the ability to see and interpret its surroundings. Featuring an 8-megapixel sensor, it captures high-quality images that the Raspberry Pi can use for color detection and object recognition. In our setup, the camera is crucial for detecting red and green obstacles, which guide the robot’s turns. The camera supports video capture at 1080p, allowing for real-time image processing and analysis. Its compact design ensures that it can be easily mounted on the robot without adding significant weight or bulk.
 
-## 3.7V BATTERY
+## 3.7V 18650 Li-ion BATTERY
+(2 batteries of 3.7V in a series connection with total output of 7.4V, 2200mah power)
 
 The robot is powered by a 3.7V 2200mAh lithium-ion battery, which serves as its primary energy source. Its compact size and high energy density make it ideal for lightweight robotic applications, while the 2200mAh capacity allows the robot to operate for extended periods without frequent recharging. The battery provides a consistent current sufficient for driving the motors, powering the sensors, and supporting image-processing tasks with the PiCamera3. Being rechargeable, it offers an economical and sustainable solution for repeated use. Its reliable performance ensures smooth and uninterrupted operation of the robot, allowing it to navigate, detect objects, and complete tasks efficiently in both open and obstacle rounds.
 
@@ -60,6 +63,9 @@ The PCA9685 is an I²C multiplexer that allows a single I²C bus from the Raspbe
 
 ## BNO 55
 The BNO055 is a smart 9-axis absolute orientation sensor from Bosch that integrates a 3-axis accelerometer, 3-axis gyroscope, and 3-axis magnetometer into a single chip, along with a built-in 32-bit microcontroller running sensor fusion algorithms. Unlike raw IMUs, which require complex calculations on the host processor, the BNO055 outputs ready-to-use orientation data such as Euler angles (heading, roll, pitch) or quaternions, making it ideal for robotics, drones, AR/VR, and navigation projects. Its onboard fusion reduces drift and noise, providing stable orientation tracking with minimal processing overhead on the main controller.
+
+## 7.4V Battery
+Power is supplied by a 7.4V lithium-ion battery pack, which provides higher voltage and sufficient current to reliably drive the Raspberry Pi, motors, and sensors. Since the Raspberry Pi and some peripherals require regulated 5V or 3.3V inputs, a step-down voltage regulator integrated into the custom PCB ensures stable power delivery. The higher input voltage from the 7.4V battery offers better headroom for the regulators, resulting in more consistent performance under load, especially during motor acceleration or obstacle maneuvers. With a capacity of 2200mAh, the battery supports extended operation during competition rounds without frequent recharging, making it well-suited for real-time robotics challenges.
 
 ENGINEERING PROCESSES
 ====
@@ -117,7 +123,7 @@ Attach the Raspberry Pi Camera V2 to the front of the robot for obstacle detecti
 
 POWER AND SENSE MANAGEMENT
 ====
-Our robot is powered by a 7.2V battery, which is selected to ensure stable and long-lasting performance throughout the competition. This power source is critical to running the EV3 motor, the servo motor for steering, and the three VL53L1X laser sensors. The battery can power the robot for more than sufficient operational time for multiple challenge rounds without requiring recharging.
+Our robot is powered by a 7.4V battery, which is selected to ensure stable and long-lasting performance throughout the competition. This power source is critical to running the EV3 motor, the servo motor for steering, and the three VL53L1X laser sensors. The battery can power the robot for more than sufficient operational time for multiple challenge rounds without requiring recharging.
 
 ## Sensor Management
 The robot uses three VL53L1X laser sensors to accurately detect and measure distances during wall-following. Two of these sensors are mounted on the sides of the chassis to track distances to the nearest walls, while the third is placed at the front to monitor the distance from the wall directly ahead. These sensors allow the robot to maintain a precise distance from the inner, outer, and front walls, which is crucial for ensuring smooth and consistent navigation.
